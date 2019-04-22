@@ -12,3 +12,5 @@ jupyter kernelspec uninstall unwanted-kernel
 
 python -m ipykernel install --user --name env2 --display-name env2
 
+python -m ipykernel install --user --name plaidml --display-name plaidml
+
