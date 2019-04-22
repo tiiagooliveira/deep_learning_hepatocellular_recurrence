@@ -1,0 +1,14 @@
+virtualenv commands
+
+virtual env -p python3 ~/virtualenvironment/env2
+
+source ~/virtualenvironment/env2/bin activate
+
+% Add environment to a kernel in Jupyter Notebook
+
+python -m ipython kernel install--user --name env2 --display-name "Python (env2)"
+
+jupyter kernelspec uninstall unwanted-kernel
+
+python -m ipykernel install --user --name env2 --display-name env2
+
